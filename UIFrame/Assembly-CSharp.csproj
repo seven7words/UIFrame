@@ -5,8 +5,7 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <RootNamespace>
-    </RootNamespace>
+    <RootNamespace></RootNamespace>
     <ProjectGuid>{E7485B0E-7C4C-3D99-50AB-559CA5F021C7}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
@@ -14,8 +13,6 @@
     <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <BaseDirectory>Assets</BaseDirectory>
-    <LangVersion>4</LangVersion>
-    <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -37,7 +34,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
-    <Reference Include="System.Xml" />
+    <Reference Include="System.XML" />
     <Reference Include="System.Core" />
     <Reference Include="System.Runtime.Serialization" />
     <Reference Include="System.Xml.Linq" />
@@ -49,46 +46,48 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\Framework\BaseObject\BaseController.cs" />
-    <Compile Include="Assets\Scripts\Framework\BaseObject\BaseModel.cs" />
-    <Compile Include="Assets\Scripts\Framework\BaseObject\BaseModule.cs" />
-    <Compile Include="Assets\Scripts\Framework\BaseObject\BaseUI.cs" />
-    <Compile Include="Assets\Scripts\Framework\Common\Message\Message.cs" />
-    <Compile Include="Assets\Scripts\Framework\Common\Message\MessageCenter.cs" />
-    <Compile Include="Assets\Scripts\Framework\Common\Message\MessageType.cs" />
-    <Compile Include="Assets\Scripts\Framework\Common\Singleton\DDOLSingleton.cs" />
-    <Compile Include="Assets\Scripts\Framework\Common\Singleton\Singleton.cs" />
-    <Compile Include="Assets\Scripts\Framework\Common\Singleton\SingletonException.cs" />
-    <Compile Include="Assets\Scripts\Framework\Defines\Defines.cs" />
-    <Compile Include="Assets\Scripts\Framework\Manager\CoroutineController.cs" />
-    <Compile Include="Assets\Scripts\Framework\Manager\GameController.cs" />
-    <Compile Include="Assets\Scripts\Framework\Manager\ModuleManager.cs" />
-    <Compile Include="Assets\Scripts\Framework\Manager\ResourcesManager.cs" />
-    <Compile Include="Assets\Scripts\Framework\Manager\UIManager.cs" />
-    <Compile Include="Assets\Scripts\GameLogic\UI\TestOne.cs" />
-    <Compile Include="Assets\Scripts\GameLogic\UI\TestTwo.cs" />
-    <Compile Include="Assets\Scripts\StartGame.cs" />
-    <Reference Include="UnityEngine.UI">
-      <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.Networking">
-      <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.TestRunner">
-      <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/TestRunner/UnityEngine.TestRunner.dll</HintPath>
-    </Reference>
-    <Reference Include="nunit.framework">
-      <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/TestRunner/net35/unity-custom/nunit.framework.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.Analytics">
-      <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.HoloLens">
-      <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.VR">
-      <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityVR/RuntimeEditor/UnityEngine.VR.dll</HintPath>
-    </Reference>
+     <Compile Include="Assets\Scripts\Framework\BaseObject\BaseController.cs" />
+     <Compile Include="Assets\Scripts\Framework\BaseObject\BaseModel.cs" />
+     <Compile Include="Assets\Scripts\Framework\BaseObject\BaseModule.cs" />
+     <Compile Include="Assets\Scripts\Framework\BaseObject\BaseUI.cs" />
+     <Compile Include="Assets\Scripts\Framework\Common\Extended\MethodExtension.cs" />
+     <Compile Include="Assets\Scripts\Framework\Common\Message\Message.cs" />
+     <Compile Include="Assets\Scripts\Framework\Common\Message\MessageCenter.cs" />
+     <Compile Include="Assets\Scripts\Framework\Common\Message\MessageType.cs" />
+     <Compile Include="Assets\Scripts\Framework\Common\Singleton\DDOLSingleton.cs" />
+     <Compile Include="Assets\Scripts\Framework\Common\Singleton\Singleton.cs" />
+     <Compile Include="Assets\Scripts\Framework\Common\Singleton\SingletonException.cs" />
+     <Compile Include="Assets\Scripts\Framework\Common\Tools\EventTriggerListener.cs" />
+     <Compile Include="Assets\Scripts\Framework\Defines\Defines.cs" />
+     <Compile Include="Assets\Scripts\Framework\Manager\CoroutineController.cs" />
+     <Compile Include="Assets\Scripts\Framework\Manager\GameController.cs" />
+     <Compile Include="Assets\Scripts\Framework\Manager\ModuleManager.cs" />
+     <Compile Include="Assets\Scripts\Framework\Manager\ResourcesManager.cs" />
+     <Compile Include="Assets\Scripts\Framework\Manager\UIManager.cs" />
+     <Compile Include="Assets\Scripts\GameLogic\UI\TestOne.cs" />
+     <Compile Include="Assets\Scripts\GameLogic\UI\TestTwo.cs" />
+     <Compile Include="Assets\Scripts\StartGame.cs" />
+ <Reference Include="UnityEngine.UI">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Networking">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.TestRunner">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/TestRunner/UnityEngine.TestRunner.dll</HintPath>
+ </Reference>
+ <Reference Include="nunit.framework">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/TestRunner/net35/unity-custom/nunit.framework.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Analytics">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.HoloLens">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.VR">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityVR/RuntimeEditor/UnityEngine.VR.dll</HintPath>
+ </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
@@ -98,4 +97,5 @@
   <Target Name="AfterBuild">
   </Target>
   -->
+  
 </Project>

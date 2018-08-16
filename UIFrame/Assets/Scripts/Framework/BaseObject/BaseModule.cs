@@ -10,7 +10,7 @@ using UnityEngine;
         AlradyRegister,
     }
     private EnumObjectState state = EnumObjectState.Initial;
-    public event StateChangeEvent StateChanged;
+    public event StateChangedEvent StateChanged;
     
     public EnumObjectState State
     {

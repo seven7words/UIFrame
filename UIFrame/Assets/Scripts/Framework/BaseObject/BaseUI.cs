@@ -43,7 +43,7 @@ public abstract class BaseUI : MonoBehaviour
 	#region EnumObjectState & UIType
 
 	protected EnumObjectState m_state = EnumObjectState.None;
-	public event StateChangeEvent StateChanged;
+	public event StateChangedEvent StateChanged;
 	public EnumObjectState State
 	{
 		get { return this.m_state; }

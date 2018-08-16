@@ -68,7 +68,7 @@ public class UIManager : Singleton<UIManager>
 
 	public void PreloadUI(EnumUIType uiType)
 	{
-		string path = UIPathDefines.GetPrefabsPathByType(uiType);
+		string path = UIPathDefines.GetPrefabPathByType(uiType);
 		Resources.Load(path);
 //		ResourcesManager.Instance.ResourcesLoad(path);
 	}
@@ -99,7 +99,7 @@ public class UIManager : Singleton<UIManager>
 			EnumUIType uiType = uiTypes[i];
 			if (!dicOpenUIs.ContainsKey(uiType))
 			{
-				string path = UIPathDefines.GetPrefabsPathByType(uiType);
+				string path = UIPathDefines.GetPrefabPathByType(uiType);
 				stackOpenUIs.Push(new UIInfoData(uiType,path,uiParams));
 			}
 			

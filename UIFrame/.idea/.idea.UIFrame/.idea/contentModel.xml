@@ -13,6 +13,9 @@
             <e p="BaseUI.cs" t="Include" />
           </e>
           <e p="Common" t="Include">
+            <e p="Extended" t="Include">
+              <e p="MethodExtension.cs" t="Include" />
+            </e>
             <e p="Message" t="Include">
               <e p="Message.cs" t="Include" />
               <e p="MessageCenter.cs" t="Include" />
@@ -22,6 +25,9 @@
               <e p="DDOLSingleton.cs" t="Include" />
               <e p="Singleton.cs" t="Include" />
               <e p="SingletonException.cs" t="Include" />
+            </e>
+            <e p="Tools" t="Include">
+              <e p="EventTriggerListener.cs" t="Include" />
             </e>
           </e>
           <e p="Defines" t="Include">

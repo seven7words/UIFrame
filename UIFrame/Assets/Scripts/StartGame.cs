@@ -6,7 +6,7 @@ public class StartGame : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		//UIManager.Instance.OpenUI(EnumUIType.TestOne);
+		UIManager.Instance.OpenUI(EnumUIType.TestOne);
 //		ResourcesManager.Instance.Init();
 //		UIManager.Instance.Init();
 //		GameObject go = Instantiate(Resources.Load<GameObject>("Prefabs/TestOne")) ;
@@ -15,7 +15,7 @@ public class StartGame : MonoBehaviour {
 //		{
 //			tt = go.AddComponent<TestOne>();
 //		}
-		float tm = System.Environment.TickCount;
+		/*float tm = System.Environment.TickCount;
 		for (int i = 1; i <1000 ; i++)
 		{
 			GameObject go = null;
@@ -37,8 +37,21 @@ public class StartGame : MonoBehaviour {
 				go.transform.position = UnityEngine.Random.insideUnitSphere * 10;
 			});
 		}
-		Debug.Log("Times" + (System.Environment.TickCount-tm)*1000);
+		Debug.Log("Times" + (System.Environment.TickCount-tm)*1000);*/
+		StartCoroutine(AutoUpdateGold());
 	}
-	
+
+	private IEnumerator AutoUpdateGold()
+	{
+		int gold = 0;
+		while (true)
+		{
+			gold++;
+			yield return new WaitForSeconds(1);
+			Message message = new Message("AutoUpdateGold",this);
+			message["gold"] = gold;
+			message.Send();
+		}
+	}
 	
 }
