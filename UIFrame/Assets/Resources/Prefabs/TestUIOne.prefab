@@ -75,7 +75,7 @@ GameObject:
   - component: {fileID: 114414600433764382}
   - component: {fileID: 114252525776661320}
   m_Layer: 5
-  m_Name: TestOne
+  m_Name: TestUIOne
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

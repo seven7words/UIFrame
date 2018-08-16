@@ -16,8 +16,8 @@ public class TestTwo : BaseUI {
 //		{
 //			tt = go.AddComponent<TestOne>();
 //		}
-		UIManager.Instance.OpenUI(EnumUIType.TestOne);
-		Close();
+		UIManager.Instance.OpenUICloseOthers(EnumUIType.TestOne);
+		//Close();
 	}
 
 	private void Close()

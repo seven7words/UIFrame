@@ -92,7 +92,7 @@ GameObject:
   - component: {fileID: 114107252433609918}
   - component: {fileID: 114584853787489884}
   m_Layer: 5
-  m_Name: TestTwo
+  m_Name: TestUITwo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

@@ -1,47 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="$PROJECT_DIR$" t="IncludeRecursive">
-      <e p="Assembly-CSharp-Editor-firstpass.csproj" t="IncludeRecursive" />
+    <e p="C:\Users\woopqww111\.Rider2018.1\system\resharper-host\local\Transient\ReSharperHost\v12\SolutionCaches\_UIFrame.-1674071911.00" t="ExcludeRecursive" />
+    <e p="C:\Users\woopqww111\Documents\UIFrame\UIFrame" t="IncludeRecursive">
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
-      <e p="Assets" t="Include">
-        <e p="Plugins" t="Include">
-          <e p="Editor" t="Include">
-            <e p="JetBrains" t="Include">
-              <e p="Unity3DRider.cs" t="Include" />
+      <e p="Assets\Scripts" t="Include">
+        <e p="Framework" t="Include">
+          <e p="BaseObject" t="Include">
+            <e p="BaseController.cs" t="Include" />
+            <e p="BaseModel.cs" t="Include" />
+            <e p="BaseModule.cs" t="Include" />
+            <e p="BaseUI.cs" t="Include" />
+          </e>
+          <e p="Common" t="Include">
+            <e p="Message" t="Include">
+              <e p="Message.cs" t="Include" />
+              <e p="MessageCenter.cs" t="Include" />
             </e>
+            <e p="Singleton" t="Include">
+              <e p="DDOLSingleton.cs" t="Include" />
+              <e p="Singleton.cs" t="Include" />
+              <e p="SingletonException.cs" t="Include" />
+            </e>
+          </e>
+          <e p="Defines" t="Include">
+            <e p="Defines.cs" t="Include" />
+          </e>
+          <e p="Manager" t="Include">
+            <e p="CoroutineController.cs" t="Include" />
+            <e p="GameController.cs" t="Include" />
+            <e p="ModuleManager.cs" t="Include" />
+            <e p="ResourcesManager.cs" t="Include" />
+            <e p="UIManager.cs" t="Include" />
           </e>
         </e>
-        <e p="Scripts" t="Include">
-          <e p="Framework" t="Include">
-            <e p="BaseObject" t="Include">
-              <e p="BaseUI.cs" t="Include" />
-            </e>
-            <e p="Common" t="Include">
-              <e p="Singleton" t="Include">
-                <e p="DDOLSingleton.cs" t="Include" />
-                <e p="Singleton.cs" t="Include" />
-                <e p="SingletonException.cs" t="Include" />
-              </e>
-            </e>
-            <e p="Defines" t="Include">
-              <e p="Defines.cs" t="Include" />
-            </e>
-            <e p="Manager" t="Include">
-              <e p="CoroutineController.cs" t="Include" />
-              <e p="GameController.cs" t="Include" />
-              <e p="ResourcesManager.cs" t="Include" />
-              <e p="UIManager.cs" t="Include" />
-            </e>
+        <e p="GameLogic" t="Include">
+          <e p="UI" t="Include">
+            <e p="TestOne.cs" t="Include" />
+            <e p="TestTwo.cs" t="Include" />
           </e>
-          <e p="GameLogic" t="Include">
-            <e p="UI" t="Include">
-              <e p="TestOne.cs" t="Include" />
-              <e p="TestTwo.cs" t="Include" />
-            </e>
-          </e>
-          <e p="StartGame.cs" t="Include" />
         </e>
+        <e p="StartGame.cs" t="Include" />
       </e>
       <e p="Library" t="ExcludeRecursive" />
       <e p="obj" t="ExcludeRecursive" />
@@ -51,6 +50,5 @@
       </e>
       <e p="UIFrame.sln" t="IncludeFlat" />
     </e>
-    <e p="$USER_HOME$/Library/Caches/Rider2017.3/resharper-host/local/Transient/ReSharperHost/v11/SolutionCaches/_UIFrame.-379032501.00" t="ExcludeRecursive" />
   </component>
 </project>
