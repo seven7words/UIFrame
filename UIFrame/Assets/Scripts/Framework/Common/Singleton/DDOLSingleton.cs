@@ -1,14 +1,15 @@
 ﻿
 using UnityEngine;
+using System.Collections;
 public abstract class DDOLSingleton<T>:MonoBehaviour where T:DDOLSingleton<T>
 {
-    protected static T m_Instance;
+    protected static T m_Instance = null;
 
     public static T Instance
     {
         get
         {
-            if (null == Instance)
+            if (null == m_Instance)
             {
                 GameObject go = GameObject.Find("DDOLGameObject");
                 if (null == go)
@@ -29,3 +30,5 @@ public abstract class DDOLSingleton<T>:MonoBehaviour where T:DDOLSingleton<T>
         m_Instance = null;
     }
 }
+
+
