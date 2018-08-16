@@ -18,7 +18,7 @@ public class TestOne : BaseUI {
 		UIManager.Instance.OpenUICloseOthers(EnumUIType.TestTwo);
 		//Close();
 	}
-
+	
 	private void Close()
 	{
 		DestroyImmediate(gameObject);

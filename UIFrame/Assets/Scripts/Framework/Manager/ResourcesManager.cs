@@ -42,11 +42,9 @@ public class AssetInfo
 				_ResourcesLoad();
 				yield return null;
 			}
-			else
-			{
-				if (null != _loaded)
-					_loaded(_Object);
-			}
+			if (null != _loaded)
+				_loaded(_Object);
+			
 			yield break;
 		}
 
