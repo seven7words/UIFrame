@@ -55,6 +55,7 @@
     <Compile Include="Assets\Scripts\Framework\BaseObject\BaseUI.cs" />
     <Compile Include="Assets\Scripts\Framework\Common\Message\Message.cs" />
     <Compile Include="Assets\Scripts\Framework\Common\Message\MessageCenter.cs" />
+    <Compile Include="Assets\Scripts\Framework\Common\Message\MessageType.cs" />
     <Compile Include="Assets\Scripts\Framework\Common\Singleton\DDOLSingleton.cs" />
     <Compile Include="Assets\Scripts\Framework\Common\Singleton\Singleton.cs" />
     <Compile Include="Assets\Scripts\Framework\Common\Singleton\SingletonException.cs" />

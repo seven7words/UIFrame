@@ -2,33 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c25238da-9ded-4c19-8ee6-c8d85b10aed4" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Framework/BaseObject/BaseController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Framework/BaseObject/BaseController.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Framework/BaseObject/BaseModel.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Framework/BaseObject/BaseModel.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Framework/BaseObject/BaseModule.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Framework/BaseObject/BaseModule.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Framework/Common/Message.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Framework/Common/Message/Message.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Framework/Common/Message/Message.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Framework/Common/Message/MessageCenter.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Framework/Common/Message/MessageCenter.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Framework/Manager/ModuleManager.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Framework/Manager/ModuleManager.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Framework/Common/Message/MessageType.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Framework/Common/Message/MessageType.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.UIFrame/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.UIFrame/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.UIFrame/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.UIFrame/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assembly-CSharp-Editor-firstpass.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp-Editor-firstpass.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assembly-CSharp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Editor/JetBrains/Unity3DRider.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Editor/JetBrains/Unity3DRider.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/TestUIOne.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/TestUIOne.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/TestUITwo.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/TestUITwo.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Framework/Manager/ResourcesManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Framework/Manager/ResourcesManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameLogic/UI/TestOne.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GameLogic/UI/TestOne.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameLogic/UI/TestTwo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GameLogic/UI/TestTwo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/StartGame.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/StartGame.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UIFrame.sln" beforeDir="false" afterPath="$PROJECT_DIR$/UIFrame.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Framework/Common/Message/Message.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Framework/Common/Message/Message.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Framework/Common/Message/MessageCenter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Framework/Common/Message/MessageCenter.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Framework/Defines/Defines.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Framework/Defines/Defines.cs" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -213,25 +194,118 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Message.cs" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Message.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Framework/Common/Message/Message.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+            <state relative-caret-position="296">
+              <caret line="128" column="9" selection-start-line="128" selection-start-column="9" selection-end-line="128" selection-end-column="9" />
               <folding>
-                <marker date="1534405964402" expanded="true" signature="25:46" ph="{...}" />
+                <marker date="1534410254011" expanded="true" signature="6:97" ph="..." />
+                <marker date="1534410254011" expanded="true" signature="160:3241" ph="{...}" />
+                <marker date="1534410254011" expanded="false" signature="358:1137" ph="message[key] = value or data = message[key]" />
+                <marker date="1534410254011" expanded="true" signature="415:494" ph="/// 索引器 ... " />
+                <marker date="1534410254011" expanded="true" signature="530:1121" ph="{...}" />
+                <marker date="1534410254011" expanded="true" signature="543:767" ph="{...}" />
+                <marker date="1534410254011" expanded="true" signature="617:674" ph="{...}" />
+                <marker date="1534410254011" expanded="true" signature="691:757" ph="{...}" />
+                <marker date="1534410254011" expanded="true" signature="779:1119" ph="{...}" />
+                <marker date="1534410254011" expanded="true" signature="823:912" ph="{...}" />
+                <marker date="1534410254011" expanded="true" signature="956:1023" ph="{...}" />
+                <marker date="1534410254011" expanded="true" signature="1040:1109" ph="{...}" />
+                <marker date="1534410254011" expanded="true" signature="1144:1483" ph="IENumerable implementation" />
+                <marker date="1534410254011" expanded="false" signature="1248:1466" ph="{...}" />
+                <marker date="1534410254011" expanded="true" signature="1284:1329" ph="{...}" />
+                <marker date="1534410254011" expanded="true" signature="1401:1460" ph="{...}" />
+                <marker date="1534410254011" expanded="true" signature="1489:1636" ph="IEnumerable impletatation" />
+                <marker date="1534410254011" expanded="true" signature="1567:1620" ph="{...}" />
+                <marker date="1534410254011" expanded="true" signature="1642:2790" ph="构造函数" />
+                <marker date="1534410254011" expanded="true" signature="1718:1803" ph="{...}" />
+                <marker date="1534410254011" expanded="true" signature="1851:1933" ph="{...}" />
+                <marker date="1534410254011" expanded="true" signature="2023:2472" ph="{...}" />
+                <marker date="1534410254011" expanded="true" signature="2172:2466" ph="{...}" />
+                <marker date="1534410254011" expanded="true" signature="2225:2456" ph="{...}" />
+                <marker date="1534410254011" expanded="true" signature="2341:2442" ph="{...}" />
+                <marker date="1534410254011" expanded="true" signature="2509:2774" ph="{...}" />
+                <marker date="1534410254011" expanded="true" signature="2691:2768" ph="{...}" />
+                <marker date="1534410254011" expanded="true" signature="2796:3079" ph="Add &amp; Remove" />
+                <marker date="1534410254011" expanded="true" signature="2852:2977" ph="{...}" />
+                <marker date="1534410254011" expanded="true" signature="2917:2971" ph="{...}" />
+                <marker date="1534410254011" expanded="true" signature="3024:3063" ph="{...}" />
+                <marker date="1534410254011" expanded="true" signature="3085:3235" ph="Send" />
+                <marker date="1534410254011" expanded="true" signature="3121:3219" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MessageCenter.cs" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Defines.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Framework/Defines/Defines.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="133">
+              <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
+              <folding>
+                <marker date="1534409854031" expanded="false" signature="6:100" ph="..." />
+                <marker date="1534409854031" expanded="true" signature="102:292" ph="Global delegate" />
+                <marker date="1534409854031" expanded="false" signature="293:527" ph="全局枚举" />
+                <marker date="1534409854031" expanded="true" signature="307:357" ph="/// Enum Object State ... " />
+                <marker date="1534409854031" expanded="true" signature="385:444" ph="{...}" />
+                <marker date="1534409854031" expanded="true" signature="472:516" ph="{...}" />
+                <marker date="1534409854031" expanded="true" signature="555:1732" ph="{...}" />
+                <marker date="1534409854031" expanded="true" signature="559:598" ph="/// UI预设 ... " />
+                <marker date="1534409854031" expanded="true" signature="645:687" ph="/// UI小控件预设 ... " />
+                <marker date="1534409854031" expanded="true" signature="753:795" ph="/// ui子界面预设 ... " />
+                <marker date="1534409854031" expanded="true" signature="856:897" ph="/// icon路径 ... " />
+                <marker date="1534409854031" expanded="true" signature="1008:1333" ph="{...}" />
+                <marker date="1534409854031" expanded="true" signature="1059:1314" ph="{...}" />
+                <marker date="1534409854031" expanded="true" signature="1399:1730" ph="{...}" />
+                <marker date="1534409854031" expanded="true" signature="1453:1705" ph="{...}" />
+                <marker date="1534409854031" expanded="true" signature="1756:1788" ph="{...}" />
+                <marker date="1534409854031" expanded="true" signature="1775:1784" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MessageCenter.cs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Framework/Common/Message/MessageCenter.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+            <state relative-caret-position="643">
+              <caret line="94" column="38" lean-forward="true" selection-start-line="94" selection-start-column="38" selection-end-line="94" selection-end-column="38" />
               <folding>
-                <marker date="1534405963011" expanded="true" signature="31:52" ph="{...}" />
+                <marker date="1534410911546" expanded="true" signature="91:2659" ph="{...}" />
+                <marker date="1534410911546" expanded="true" signature="205:289" ph="{...}" />
+                <marker date="1534410911546" expanded="false" signature="295:1615" ph="Add &amp;Remove Listener" />
+                <marker date="1534410911546" expanded="true" signature="398:735" ph="{...}" />
+                <marker date="1534410911546" expanded="true" signature="498:567" ph="{...}" />
+                <marker date="1534410911546" expanded="true" signature="580:696" ph="{...}" />
+                <marker date="1534410911546" expanded="true" signature="814:1213" ph="{...}" />
+                <marker date="1534410911546" expanded="true" signature="874:1207" ph="{...}" />
+                <marker date="1534410911546" expanded="true" signature="997:1068" ph="{...}" />
+                <marker date="1534410911546" expanded="true" signature="1116:1197" ph="{...}" />
+                <marker date="1534410911546" expanded="true" signature="1292:1362" ph="{...}" />
+                <marker date="1534410911546" expanded="true" signature="1445:1518" ph="{...}" />
+                <marker date="1534410911546" expanded="true" signature="1555:1600" ph="{...}" />
+                <marker date="1534410911546" expanded="true" signature="1624:2653" ph="SendMessage" />
+                <marker date="1534410911546" expanded="true" signature="1689:1739" ph="{...}" />
+                <marker date="1534410911546" expanded="true" signature="1794:1853" ph="{...}" />
+                <marker date="1534410911546" expanded="true" signature="1923:1990" ph="{...}" />
+                <marker date="1534410911546" expanded="true" signature="2086:2163" ph="{...}" />
+                <marker date="1534410911546" expanded="true" signature="2218:2638" ph="{...}" />
+                <marker date="1534410911546" expanded="true" signature="2307:2347" ph="{...}" />
+                <marker date="1534410911546" expanded="true" signature="2458:2632" ph="{...}" />
+                <marker date="1534410911546" expanded="true" signature="2555:2622" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MessageType.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Framework/Common/Message/MessageType.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="95">
+              <caret line="5" column="5" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
+              <folding>
+                <marker date="1534410175745" expanded="true" signature="32:96" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -261,33 +335,6 @@
                 <marker date="1534405387922" expanded="true" signature="1861:2199" ph="{...}" />
                 <marker date="1534405387922" expanded="true" signature="2035:2136" ph="{...}" />
                 <marker date="1534405387922" expanded="true" signature="2236:2257" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TestOne.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Scripts/GameLogic/UI/TestOne.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="17" column="43" selection-start-line="17" selection-start-column="43" selection-end-line="17" selection-end-column="43" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="StartGame.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Scripts/StartGame.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="589">
-              <caret line="33" column="47" selection-start-line="33" selection-start-column="47" selection-end-line="33" selection-end-column="47" />
-              <folding>
-                <marker date="1534403007857" expanded="false" signature="6:78" ph="..." />
-                <marker date="1534403007857" expanded="true" signature="119:1340" ph="{...}" />
-                <marker date="1534403007857" expanded="true" signature="169:1334" ph="{...}" />
-                <marker date="1534403007857" expanded="true" signature="173:486" ph="/* UIManager.Instance.OpenUI(EnumUIType.TestOne); ... */" />
-                <marker date="1534403007857" expanded="true" signature="562:1268" ph="{...}" />
-                <marker date="1534403007857" expanded="true" signature="592:1074" ph="/* go = Instantiate(Resources.Load&lt;GameObject&gt;(&quot;Prefabs/Cube&quot;)); ... */" />
-                <marker date="1534403007857" expanded="true" signature="1154:1262" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -328,6 +375,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Framework/BaseObject/BaseModule.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Framework/BaseObject/BaseUI.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/StartGame.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Framework/Common/Message/MessageType.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameLogic/UI/TestOne.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameLogic/UI/TestTwo.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$USER_HOME$/Desktop/Test/Assets/Scripts/GameLogic/StartGame.cs" root0="SKIP_HIGHLIGHTING" />
@@ -344,7 +392,6 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Framework/Manager/GameController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Framework/Manager/CoroutineController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Framework/BaseObject/BaseUI.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Framework/Defines/Defines.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Framework/Manager/UIManager.cs" />
         <option value="$USER_HOME$/Desktop/Test/Assets/Scripts/GameLogic/StartGame.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Framework/Common/Singleton/DDOLSingleton.cs" />
@@ -356,6 +403,8 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Framework/BaseObject/BaseModel.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Framework/BaseObject/BaseModule.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Framework/Manager/ModuleManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Framework/Defines/Defines.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Framework/Common/Message/MessageType.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Framework/Common/Message/Message.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Framework/Common/Message/MessageCenter.cs" />
       </list>
@@ -371,8 +420,8 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1366" />
-    <option name="y" value="27" />
+    <option name="x" value="1140" />
+    <option name="y" value="22" />
     <option name="width" value="1379" />
     <option name="height" value="1554" />
   </component>
@@ -456,7 +505,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
-    <property name="SearchEverywhereHistoryKey" value="modulem&#9;FILE&#9;file://C:/Users/woopqww111/Documents/UIFrame/UIFrame/Assets/Scripts/Framework/Manager/ModuleManager.cs&#10;uiman&#9;FILE&#9;file://C:/Users/woopqww111/Documents/UIFrame/UIFrame/Assets/Scripts/Framework/Manager/UIManager.cs&#10;star&#9;FILE&#9;file://C:/Users/woopqww111/Documents/UIFrame/UIFrame/Assets/Scripts/StartGame.cs&#10;ResourcesManager&#9;FILE&#9;file://C:/Users/woopqww111/Documents/UIFrame/UIFrame/Assets/Scripts/Framework/Manager/ResourcesManager.cs&#10;resou&#9;FILE&#9;file://C:/Users/woopqww111/Documents/UIFrame/UIFrame/Assets/Scripts/Framework/Manager/ResourcesManager.cs&#10;sta&#9;FILE&#9;file://C:/Users/woopqww111/Documents/UIFrame/UIFrame/Assets/Scripts/StartGame.cs&#10;res&#9;FILE&#9;file://C:/Users/woopqww111/Documents/UIFrame/UIFrame/Assets/Scripts/Framework/Manager/ResourcesManager.cs&#10;baseui&#9;FILE&#9;file://C:/Users/woopqww111/Documents/UIFrame/UIFrame/Assets/Scripts/Framework/BaseObject/BaseUI.cs&#10;testt&#9;FILE&#9;file://C:/Users/woopqww111/Documents/UIFrame/UIFrame/Assets/Scripts/GameLogic/UI/TestTwo.cs&#10;defin&#9;FILE&#9;file:///Users/sevenqizai/Desktop/我的Unity工程们/UIFrame/UIFrame/Assets/Scripts/Framework/Defines/Defines.cs&#10;def&#9;FILE&#9;file:///Users/sevenqizai/Desktop/我的Unity工程们/UIFrame/UIFrame/Assets/Scripts/Framework/Defines/Defines.cs&#10;tes&#9;FILE&#9;file:///Users/sevenqizai/Desktop/我的Unity工程们/UIFrame/UIFrame/Assets/Scripts/GameLogic/UI/TestOne.cs&#10;baseu&#9;FILE&#9;file:///Users/sevenqizai/Desktop/我的Unity工程们/UIFrame/UIFrame/Assets/Scripts/Framework/BaseObject/BaseUI.cs&#10;uim&#9;FILE&#9;file:///Users/sevenqizai/Desktop/我的Unity工程们/UIFrame/UIFrame/Assets/Scripts/Framework/Manager/UIManager.cs&#10;base&#9;ACTION&#9;GotoSuperMethod&#10;uima'&#9;FILE&#9;file:///Users/sevenqizai/Desktop/我的Unity工程们/UIFrame/UIFrame/Assets/Scripts/Framework/Manager/UIManager.cs&#10;resour&#9;FILE&#9;file:///Users/sevenqizai/Desktop/我的Unity工程们/UIFrame/UIFrame/Assets/Scripts/Framework/Manager/ResourcesManager.cs&#10;UIM&#9;FILE&#9;file:///Users/sevenqizai/Desktop/我的Unity工程们/UIFrame/UIFrame/Assets/Scripts/Framework/Manager/UIManager.cs&#10;sing&#9;FILE&#9;file:///Users/sevenqizai/Desktop/我的Unity工程们/UIFrame/UIFrame/Assets/Scripts/Framework/Common/Singleton/Singleton.cs&#10;uima&#9;FILE&#9;file:///Users/sevenqizai/Desktop/我的Unity工程们/UIFrame/UIFrame/Assets/Scripts/Framework/Manager/UIManager.cs&#10;sin&#9;null&#9;null" />
+    <property name="SearchEverywhereHistoryKey" value="mess&#9;FILE&#9;file://C:/Users/woopqww111/Documents/UIFrame/UIFrame/Assets/Scripts/Framework/Common/Message/Message.cs&#10;defi&#9;FILE&#9;file://C:/Users/woopqww111/Documents/UIFrame/UIFrame/Assets/Scripts/Framework/Defines/Defines.cs&#10;message&#9;FILE&#9;file://C:/Users/woopqww111/Documents/UIFrame/UIFrame/Assets/Scripts/Framework/Common/Message/MessageCenter.cs&#10;modulem&#9;FILE&#9;file://C:/Users/woopqww111/Documents/UIFrame/UIFrame/Assets/Scripts/Framework/Manager/ModuleManager.cs&#10;uiman&#9;FILE&#9;file://C:/Users/woopqww111/Documents/UIFrame/UIFrame/Assets/Scripts/Framework/Manager/UIManager.cs&#10;star&#9;FILE&#9;file://C:/Users/woopqww111/Documents/UIFrame/UIFrame/Assets/Scripts/StartGame.cs&#10;ResourcesManager&#9;FILE&#9;file://C:/Users/woopqww111/Documents/UIFrame/UIFrame/Assets/Scripts/Framework/Manager/ResourcesManager.cs&#10;resou&#9;FILE&#9;file://C:/Users/woopqww111/Documents/UIFrame/UIFrame/Assets/Scripts/Framework/Manager/ResourcesManager.cs&#10;sta&#9;FILE&#9;file://C:/Users/woopqww111/Documents/UIFrame/UIFrame/Assets/Scripts/StartGame.cs&#10;res&#9;FILE&#9;file://C:/Users/woopqww111/Documents/UIFrame/UIFrame/Assets/Scripts/Framework/Manager/ResourcesManager.cs&#10;baseui&#9;FILE&#9;file://C:/Users/woopqww111/Documents/UIFrame/UIFrame/Assets/Scripts/Framework/BaseObject/BaseUI.cs&#10;testt&#9;FILE&#9;file://C:/Users/woopqww111/Documents/UIFrame/UIFrame/Assets/Scripts/GameLogic/UI/TestTwo.cs&#10;defin&#9;FILE&#9;file:///Users/sevenqizai/Desktop/我的Unity工程们/UIFrame/UIFrame/Assets/Scripts/Framework/Defines/Defines.cs&#10;def&#9;FILE&#9;file:///Users/sevenqizai/Desktop/我的Unity工程们/UIFrame/UIFrame/Assets/Scripts/Framework/Defines/Defines.cs&#10;tes&#9;FILE&#9;file:///Users/sevenqizai/Desktop/我的Unity工程们/UIFrame/UIFrame/Assets/Scripts/GameLogic/UI/TestOne.cs&#10;baseu&#9;FILE&#9;file:///Users/sevenqizai/Desktop/我的Unity工程们/UIFrame/UIFrame/Assets/Scripts/Framework/BaseObject/BaseUI.cs&#10;uim&#9;FILE&#9;file:///Users/sevenqizai/Desktop/我的Unity工程们/UIFrame/UIFrame/Assets/Scripts/Framework/Manager/UIManager.cs&#10;base&#9;ACTION&#9;GotoSuperMethod&#10;uima'&#9;FILE&#9;file:///Users/sevenqizai/Desktop/我的Unity工程们/UIFrame/UIFrame/Assets/Scripts/Framework/Manager/UIManager.cs&#10;resour&#9;FILE&#9;file:///Users/sevenqizai/Desktop/我的Unity工程们/UIFrame/UIFrame/Assets/Scripts/Framework/Manager/ResourcesManager.cs&#10;UIM&#9;FILE&#9;file:///Users/sevenqizai/Desktop/我的Unity工程们/UIFrame/UIFrame/Assets/Scripts/Framework/Manager/UIManager.cs&#10;sing&#9;FILE&#9;file:///Users/sevenqizai/Desktop/我的Unity工程们/UIFrame/UIFrame/Assets/Scripts/Framework/Common/Singleton/Singleton.cs&#10;uima&#9;FILE&#9;file:///Users/sevenqizai/Desktop/我的Unity工程们/UIFrame/UIFrame/Assets/Scripts/Framework/Manager/UIManager.cs&#10;sin&#9;null&#9;null" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
   </component>
@@ -492,12 +541,12 @@
       <workItem from="1534396428334" duration="269000" />
       <workItem from="1534396829475" duration="321000" />
       <workItem from="1534397572703" duration="148000" />
-      <workItem from="1534398004376" duration="8071000" />
+      <workItem from="1534398004376" duration="11039000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20024000" />
+    <option name="totallyTimeSpent" value="22992000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -509,7 +558,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="911" y="18" width="919" height="1036" extended-state="0" />
+    <frame x="760" y="15" width="919" height="1036" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -520,7 +569,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32978722" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.39721254" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.0" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Unity" order="8" />
       <window_info anchor="right" id="Database" order="3" />
@@ -587,61 +636,10 @@
           <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="6" />
+      <option name="time" value="7" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Framework/Manager/UIManager.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" column="31" selection-start-line="29" selection-start-column="31" selection-end-line="29" selection-end-column="31" />
-          <folding>
-            <marker date="1534396988868" expanded="false" signature="6:124" ph="..." />
-            <marker date="1534396988868" expanded="true" signature="126:163" ph="/// 界面信息 ... " />
-            <marker date="1534396988868" expanded="true" signature="187:577" ph="{...}" />
-            <marker date="1534396988868" expanded="true" signature="215:243" ph="{...}" />
-            <marker date="1534396988868" expanded="true" signature="456:575" ph="{...}" />
-            <marker date="1534396988868" expanded="true" signature="624:4860" ph="{...}" />
-            <marker date="1534396988868" expanded="true" signature="629:671" ph="/// 打开UI的字典 ... " />
-            <marker date="1534396988868" expanded="true" signature="868:892" ph="{...}" />
-            <marker date="1534396988868" expanded="true" signature="946:1080" ph="{...}" />
-            <marker date="1534396988868" expanded="true" signature="1016:1061" ph="{...}" />
-            <marker date="1534396988868" expanded="true" signature="1132:1338" ph="{...}" />
-            <marker date="1534396988868" expanded="true" signature="1217:1316" ph="{...}" />
-            <marker date="1534396988868" expanded="true" signature="1381:1522" ph="{...}" />
-            <marker date="1534396988868" expanded="true" signature="1568:1651" ph="{...}" />
-            <marker date="1534396988868" expanded="true" signature="1614:1648" ph="{...}" />
-            <marker date="1534396988868" expanded="true" signature="1653:1802" ph="///  ... " />
-            <marker date="1534396988868" expanded="true" signature="1888:2373" ph="{...}" />
-            <marker date="1534396988868" expanded="true" signature="1930:1955" ph="{...}" />
-            <marker date="1534396988868" expanded="true" signature="2024:2248" ph="{...}" />
-            <marker date="1534396988868" expanded="true" signature="2103:2236" ph="{...}" />
-            <marker date="1534396988868" expanded="true" signature="2297:2370" ph="{...}" />
-            <marker date="1534396988868" expanded="true" signature="2416:3102" ph="{...}" />
-            <marker date="1534396988868" expanded="true" signature="2568:3078" ph="{...}" />
-            <marker date="1534396988868" expanded="true" signature="2690:3039" ph="{...}" />
-            <marker date="1534396988868" expanded="true" signature="2834:2888" ph="{...}" />
-            <marker date="1534396988868" expanded="true" signature="2898:2987" ph="{...}" />
-            <marker date="1534396988868" expanded="true" signature="3142:3491" ph="{...}" />
-            <marker date="1534396988868" expanded="true" signature="3208:3246" ph="{...}" />
-            <marker date="1534396988868" expanded="true" signature="3253:3488" ph="{...}" />
-            <marker date="1534396988868" expanded="true" signature="3329:3401" ph="{...}" />
-            <marker date="1534396988868" expanded="true" signature="3409:3484" ph="{...}" />
-            <marker date="1534396988868" expanded="true" signature="3586:3763" ph="{...}" />
-            <marker date="1534396988868" expanded="true" signature="3632:3760" ph="{...}" />
-            <marker date="1534396988868" expanded="true" signature="3807:3888" ph="{...}" />
-            <marker date="1534396988868" expanded="true" signature="3853:3885" ph="{...}" />
-            <marker date="1534396988868" expanded="true" signature="3915:4044" ph="{...}" />
-            <marker date="1534396988868" expanded="true" signature="4086:4122" ph="{...}" />
-            <marker date="1534396988868" expanded="true" signature="4161:4264" ph="{...}" />
-            <marker date="1534396988868" expanded="true" signature="4328:4435" ph="{...}" />
-            <marker date="1534396988868" expanded="true" signature="4489:4524" ph="{...}" />
-            <marker date="1534396988868" expanded="true" signature="4574:4676" ph="{...}" />
-            <marker date="1534396988868" expanded="true" signature="4752:4858" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/GameLogic/UI/TestOne.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -1019,13 +1017,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Framework/Defines/Defines.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="74" column="30" selection-start-line="74" selection-start-column="30" selection-end-line="74" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/D0A5C709-6719-44EF-BC8A-16CA5E1C31C7/65/538ab4af/StackTraceUtility.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="376">
@@ -1311,22 +1302,111 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Framework/Common/Message/MessageCenter.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Framework/Defines/Defines.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
+          <folding>
+            <marker date="1534409854031" expanded="false" signature="6:100" ph="..." />
+            <marker date="1534409854031" expanded="true" signature="102:292" ph="Global delegate" />
+            <marker date="1534409854031" expanded="false" signature="293:527" ph="全局枚举" />
+            <marker date="1534409854031" expanded="true" signature="307:357" ph="/// Enum Object State ... " />
+            <marker date="1534409854031" expanded="true" signature="385:444" ph="{...}" />
+            <marker date="1534409854031" expanded="true" signature="472:516" ph="{...}" />
+            <marker date="1534409854031" expanded="true" signature="555:1732" ph="{...}" />
+            <marker date="1534409854031" expanded="true" signature="559:598" ph="/// UI预设 ... " />
+            <marker date="1534409854031" expanded="true" signature="645:687" ph="/// UI小控件预设 ... " />
+            <marker date="1534409854031" expanded="true" signature="753:795" ph="/// ui子界面预设 ... " />
+            <marker date="1534409854031" expanded="true" signature="856:897" ph="/// icon路径 ... " />
+            <marker date="1534409854031" expanded="true" signature="1008:1333" ph="{...}" />
+            <marker date="1534409854031" expanded="true" signature="1059:1314" ph="{...}" />
+            <marker date="1534409854031" expanded="true" signature="1399:1730" ph="{...}" />
+            <marker date="1534409854031" expanded="true" signature="1453:1705" ph="{...}" />
+            <marker date="1534409854031" expanded="true" signature="1756:1788" ph="{...}" />
+            <marker date="1534409854031" expanded="true" signature="1775:1784" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Framework/Common/Message/MessageType.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+          <caret line="5" column="5" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
           <folding>
-            <marker date="1534405963011" expanded="true" signature="31:52" ph="{...}" />
+            <marker date="1534410175745" expanded="true" signature="32:96" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Framework/Common/Message/Message.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        <state relative-caret-position="296">
+          <caret line="128" column="9" selection-start-line="128" selection-start-column="9" selection-end-line="128" selection-end-column="9" />
           <folding>
-            <marker date="1534405964402" expanded="true" signature="25:46" ph="{...}" />
+            <marker date="1534410254011" expanded="true" signature="6:97" ph="..." />
+            <marker date="1534410254011" expanded="true" signature="160:3241" ph="{...}" />
+            <marker date="1534410254011" expanded="false" signature="358:1137" ph="message[key] = value or data = message[key]" />
+            <marker date="1534410254011" expanded="true" signature="415:494" ph="/// 索引器 ... " />
+            <marker date="1534410254011" expanded="true" signature="530:1121" ph="{...}" />
+            <marker date="1534410254011" expanded="true" signature="543:767" ph="{...}" />
+            <marker date="1534410254011" expanded="true" signature="617:674" ph="{...}" />
+            <marker date="1534410254011" expanded="true" signature="691:757" ph="{...}" />
+            <marker date="1534410254011" expanded="true" signature="779:1119" ph="{...}" />
+            <marker date="1534410254011" expanded="true" signature="823:912" ph="{...}" />
+            <marker date="1534410254011" expanded="true" signature="956:1023" ph="{...}" />
+            <marker date="1534410254011" expanded="true" signature="1040:1109" ph="{...}" />
+            <marker date="1534410254011" expanded="true" signature="1144:1483" ph="IENumerable implementation" />
+            <marker date="1534410254011" expanded="false" signature="1248:1466" ph="{...}" />
+            <marker date="1534410254011" expanded="true" signature="1284:1329" ph="{...}" />
+            <marker date="1534410254011" expanded="true" signature="1401:1460" ph="{...}" />
+            <marker date="1534410254011" expanded="true" signature="1489:1636" ph="IEnumerable impletatation" />
+            <marker date="1534410254011" expanded="true" signature="1567:1620" ph="{...}" />
+            <marker date="1534410254011" expanded="true" signature="1642:2790" ph="构造函数" />
+            <marker date="1534410254011" expanded="true" signature="1718:1803" ph="{...}" />
+            <marker date="1534410254011" expanded="true" signature="1851:1933" ph="{...}" />
+            <marker date="1534410254011" expanded="true" signature="2023:2472" ph="{...}" />
+            <marker date="1534410254011" expanded="true" signature="2172:2466" ph="{...}" />
+            <marker date="1534410254011" expanded="true" signature="2225:2456" ph="{...}" />
+            <marker date="1534410254011" expanded="true" signature="2341:2442" ph="{...}" />
+            <marker date="1534410254011" expanded="true" signature="2509:2774" ph="{...}" />
+            <marker date="1534410254011" expanded="true" signature="2691:2768" ph="{...}" />
+            <marker date="1534410254011" expanded="true" signature="2796:3079" ph="Add &amp; Remove" />
+            <marker date="1534410254011" expanded="true" signature="2852:2977" ph="{...}" />
+            <marker date="1534410254011" expanded="true" signature="2917:2971" ph="{...}" />
+            <marker date="1534410254011" expanded="true" signature="3024:3063" ph="{...}" />
+            <marker date="1534410254011" expanded="true" signature="3085:3235" ph="Send" />
+            <marker date="1534410254011" expanded="true" signature="3121:3219" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Framework/Common/Message/MessageCenter.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="643">
+          <caret line="94" column="38" lean-forward="true" selection-start-line="94" selection-start-column="38" selection-end-line="94" selection-end-column="38" />
+          <folding>
+            <marker date="1534410911546" expanded="true" signature="91:2659" ph="{...}" />
+            <marker date="1534410911546" expanded="true" signature="205:289" ph="{...}" />
+            <marker date="1534410911546" expanded="false" signature="295:1615" ph="Add &amp;Remove Listener" />
+            <marker date="1534410911546" expanded="true" signature="398:735" ph="{...}" />
+            <marker date="1534410911546" expanded="true" signature="498:567" ph="{...}" />
+            <marker date="1534410911546" expanded="true" signature="580:696" ph="{...}" />
+            <marker date="1534410911546" expanded="true" signature="814:1213" ph="{...}" />
+            <marker date="1534410911546" expanded="true" signature="874:1207" ph="{...}" />
+            <marker date="1534410911546" expanded="true" signature="997:1068" ph="{...}" />
+            <marker date="1534410911546" expanded="true" signature="1116:1197" ph="{...}" />
+            <marker date="1534410911546" expanded="true" signature="1292:1362" ph="{...}" />
+            <marker date="1534410911546" expanded="true" signature="1445:1518" ph="{...}" />
+            <marker date="1534410911546" expanded="true" signature="1555:1600" ph="{...}" />
+            <marker date="1534410911546" expanded="true" signature="1624:2653" ph="SendMessage" />
+            <marker date="1534410911546" expanded="true" signature="1689:1739" ph="{...}" />
+            <marker date="1534410911546" expanded="true" signature="1794:1853" ph="{...}" />
+            <marker date="1534410911546" expanded="true" signature="1923:1990" ph="{...}" />
+            <marker date="1534410911546" expanded="true" signature="2086:2163" ph="{...}" />
+            <marker date="1534410911546" expanded="true" signature="2218:2638" ph="{...}" />
+            <marker date="1534410911546" expanded="true" signature="2307:2347" ph="{...}" />
+            <marker date="1534410911546" expanded="true" signature="2458:2632" ph="{...}" />
+            <marker date="1534410911546" expanded="true" signature="2555:2622" ph="{...}" />
           </folding>
         </state>
       </provider>

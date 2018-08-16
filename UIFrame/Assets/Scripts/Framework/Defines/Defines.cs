@@ -8,6 +8,7 @@ using UnityEngine.UI;
 	
 public delegate void StateChangeEvent(object ui,EnumObjectState newState,EnumObjectState oldState);
 
+public delegate void MessageEvent(Message message);
 #endregion
 #region 全局枚举
 
