@@ -1,5 +1,6 @@
 ﻿
     using System.Collections.Generic;
+    using UnityEngine.UI;
 
 public class MessageCenter:Singleton<MessageCenter>
 {
@@ -96,7 +97,8 @@ public class MessageCenter:Singleton<MessageCenter>
             }
         }
     }
-    #endregion
-  
 
+    #endregion
+
+    Selectable
 }
